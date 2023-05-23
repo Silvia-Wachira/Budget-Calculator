@@ -16,7 +16,7 @@ function Register(props) {
     <>
     <form onSubmit={handleSubmit}>
         <label htmlFor='name'>name</label>
-        <input value={name} name='name' id='name' placeholder='full name'  >name</input>
+        <input value={name} name='name' id='name' placeholder='full name' />
         <label htmlFor='email'>email</label>
         <input value={email} type='email' placeholder='youremail@gmail.com' id='email' name='email' />
         <label htmlFor='password'>password</label>
