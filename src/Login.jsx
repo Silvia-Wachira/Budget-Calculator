@@ -20,7 +20,7 @@ function Login(props) {
             <button type='submit' >Log in</button>
         </form>
 
-        <button onClick={() => props.onFormSwitch('register')} >Don't have an Account? Register here</button>
+        <button onClick={() => props.onFormSwitch('register')} >Don't have an account? Register here</button>
     </>
   )
 }
