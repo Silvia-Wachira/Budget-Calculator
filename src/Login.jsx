@@ -11,8 +11,8 @@ function Login(props) {
     }
 
   return (
-    <>
-        <form onSubmit={handleSubmit}>
+    <div className='width-form-container'>
+        <form className='login-form' onSubmit={handleSubmit}>
             <label htmlFor='email'>email</label>
             <input value={email} type='email' placeholder='youremail@gmail.com' id='email' name='email' />
             <label htmlFor='password'>password</label>
@@ -20,8 +20,8 @@ function Login(props) {
             <button type='submit' >Log in</button>
         </form>
 
-        <button onClick={() => props.onFormSwitch('register')} >Don't have an account? Register here</button>
-    </>
+        <button className='link-btn' onClick={() => props.onFormSwitch('register')} > Don't have an account? Register here </button>
+    </div>
   )
 }
 
